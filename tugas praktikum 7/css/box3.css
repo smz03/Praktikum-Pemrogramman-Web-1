@@ -1,0 +1,62 @@
+.topbox{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+/* Mencari class box pertama di setiap topbox */
+
+.topbox  .box1:nth-child(1){
+    background-color: #f4eb49;
+    width: 15%;
+}
+
+.topbox  .box2:nth-child(2){
+    width: 83%;
+    background-color: #f76424;
+    height:50px;
+}
+
+.box1{
+    height:50px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+/* Mencari class box pertama di setiap container */
+
+.container  .box:nth-child(1){
+    width: 15%;
+    background-color: #aedd94;
+    height:500px;
+}
+
+.container  .box:nth-child(2){
+    width: 67%;
+    height:500px;
+    background-color: #dce1e2;
+}
+
+.container  .box:nth-child(3){
+    width: 15%;
+    background-color: #4dd7fa;
+    height:500px;
+}
+
+
+
+.buttombox{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    background-color: #0a34f1;
+}
+
